@@ -1,7 +1,6 @@
 import command_launcher
 
 def main():
-    loop = [True]
     comm_launcher = command_launcher.CommandLauncher()
 
     while comm_launcher.loop:
